@@ -14,6 +14,17 @@ int main() {
     vec.push_back(35);
     cout<< "After push back_size = " <<vec.size() <<endl;
     
+
+    // pop back: 
+    vec.pop_back(); // 35
+
+    // front: 
+    cout<< vec.front() <<endl;
+
+    // back:
+    cout<< vec.back() <<endl;
+
+    
     for(int val : vec) {
         cout<< val <<endl;
     }
